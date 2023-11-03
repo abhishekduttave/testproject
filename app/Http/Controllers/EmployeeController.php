@@ -27,7 +27,7 @@ class EmployeeController extends Controller
 		}
 		*/
 		//echo 'Hi';
-		$Employee=DB::table('Employee')->get();
+		$Employee=DB::select('select * from Employee');
 		print_r($Employee);
     }
 	
