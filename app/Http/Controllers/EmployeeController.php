@@ -26,9 +26,9 @@ class EmployeeController extends Controller
 			die("Could not connect to the database.  Please check your configuration. Error:" . $e );
 		}
 		*/
-		echo 'Hi';
-		/*$Employee=DB::select('select * from Employee');
-		print_r($Employee);*/
+		//echo 'Hi';
+		$Employee=DB::select('select * from Employee');
+		print_r($Employee);
     }
 	
 	
