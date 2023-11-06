@@ -18,17 +18,19 @@ class EmployeeController extends Controller
     
     public function index()
     {
-		/*
+		
 		try {
 			DB::connection()->getPdo();
 			print_r("Connected successfully to: " . DB::connection()->getDatabaseName());
 		} catch (\Exception $e) {
 			die("Could not connect to the database.  Please check your configuration. Error:" . $e );
 		}
-		*/
-		//echo 'Hi';
+		
+		/*
 		$Employee=DB::select('select * from Employee');
 		print_r($Employee);
+		*/
+		
     }
 	
 	
